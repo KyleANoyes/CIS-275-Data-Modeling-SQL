@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2024-08-04T15:24:44.614Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="H7F3QZ-O2HvEutf3Xjch" version="22.1.18" type="device">
+  <diagram name="Page-1" id="Pj8QTm10dxf-_qUteqr5">
+    <mxGraphModel dx="1430" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eSrJOh5-UN03IqFbC18i-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERmany;startFill=0;" parent="1" source="eSrJOh5-UN03IqFbC18i-1" target="eSrJOh5-UN03IqFbC18i-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSrJOh5-UN03IqFbC18i-1" value="&lt;div&gt;PatientID&lt;/div&gt;&lt;div&gt;PatientName&lt;/div&gt;&lt;div&gt;PatientContact&lt;/div&gt;&lt;div&gt;TraumaLevel&lt;/div&gt;&lt;div&gt;HospitalID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FK&lt;/div&gt;&lt;div&gt;DepartmentID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; PK&lt;/div&gt;&lt;div&gt;RegionID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;FK&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="190" y="45" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eSrJOh5-UN03IqFbC18i-2" value="DepartmentID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; PK&lt;br&gt;PrimaryFunction&lt;br&gt;NumStaff&lt;br&gt;StaffID&lt;br&gt;HospitalID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;FK&lt;br&gt;RegionID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;FK" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="430" y="45" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="1" source="Zhomr1DIxuM3Gr6Y-WkB-4" target="Zhomr1DIxuM3Gr6Y-WkB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-4" value="&lt;div&gt;DoctorID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; PK&lt;/div&gt;&lt;div&gt;DoctorName&lt;/div&gt;&lt;div&gt;DoctorSpecialty&lt;/div&gt;&lt;div&gt;DepartmentID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FK&lt;br&gt;&lt;/div&gt;&lt;div&gt;TraumaLevel&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FK&lt;/div&gt;&lt;div&gt;PriamryNetworkID&lt;/div&gt;&lt;div&gt;OnCallPhone&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="210" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-5" value="&lt;div&gt;PatientID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;PK&lt;/div&gt;&lt;div&gt;PatientName&lt;/div&gt;&lt;div&gt;PatientContact&lt;/div&gt;&lt;div&gt;TraumaLevel&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FK&lt;/div&gt;&lt;div&gt;HospitalID&lt;/div&gt;&lt;div&gt;DepartmentID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;FK&lt;/div&gt;&lt;div&gt;RegionID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="431" y="210" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="1" source="Zhomr1DIxuM3Gr6Y-WkB-7" target="Zhomr1DIxuM3Gr6Y-WkB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-7" value="&lt;div&gt;NurseID&lt;/div&gt;&lt;div&gt;NurseName&lt;/div&gt;&lt;div&gt;DepartmentID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FK&lt;br&gt;&lt;/div&gt;&lt;div&gt;PrimaryUnit&lt;/div&gt;&lt;div&gt;PrimaryFloor&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; PK&lt;/div&gt;&lt;div&gt;Speciality&lt;/div&gt;&lt;div&gt;CareLevel&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FK&lt;/div&gt;&lt;div&gt;DoctorSupervising&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="370" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-8" value="&lt;div&gt;RoomID&lt;/div&gt;&lt;div&gt;PatientID&lt;br&gt;&lt;/div&gt;&lt;div&gt;FloorNum&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;PK&lt;/div&gt;&lt;div&gt;DepartmentID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FK&lt;/div&gt;&lt;div&gt;PriamryCare&lt;/div&gt;&lt;div&gt;CareLevel&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FK&lt;/div&gt;&lt;div&gt;MobilityRating&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="431" y="370" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="1" source="Zhomr1DIxuM3Gr6Y-WkB-10" target="Zhomr1DIxuM3Gr6Y-WkB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-10" value="&lt;div&gt;&lt;div&gt;RoomID&lt;/div&gt;&lt;div&gt;PatientID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; PK&lt;/div&gt;&lt;div&gt;FloorNum&lt;/div&gt;&lt;div&gt;DepartmentID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;FK&lt;/div&gt;&lt;div&gt;PriamryCare&lt;/div&gt;&lt;div&gt;CareLevel&lt;/div&gt;&lt;div&gt;MobilityRating&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="530" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-11" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;PatientID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; PK&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;PatientName&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;PatientContact&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;TraumaLevel&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;HospitalID&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;DepartmentID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;FK&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;RegionID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="431" y="530" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="1" source="Zhomr1DIxuM3Gr6Y-WkB-18" target="Zhomr1DIxuM3Gr6Y-WkB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-18" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;DoctorID&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;DoctorName&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;DoctorSpecialty&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;DepartmentID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;PK&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;TraumaLevel&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;PriamryNetworkID&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;OnCallPhone&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="189" y="690" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-19" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;DepartmentID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; PK&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;PrimaryFunction&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;NumStaff&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;StaffID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;HospitalID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RegionID&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="690" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-21" value="Patients and Departments; Many-to-Many" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="165" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-22" value="Doctors and Patients; One-to-Many" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="330" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-23" value="Rooms and Patients; One-to-Many" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="490" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-24" value="Nurses and Rooms; One-to-Many" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="650" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zhomr1DIxuM3Gr6Y-WkB-25" value="Department and Doctors; One-To-Many" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="810" width="230" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
